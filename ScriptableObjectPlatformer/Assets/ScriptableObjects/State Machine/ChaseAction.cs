@@ -5,13 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PluggableAI/Action/Chase")]
 public class ChaseAction : Action
 {
-    public float chaseSpeed;
     public override void Act(StateController controller)
     {
         Chase(controller);
     }
     void Chase (StateController controller)
     {
-        controller.transform.position = Vector2.MoveTowards(controller.transform.position, controller.chaseTarget.position, chaseSpeed * Time.deltaTime);
+        controller.transform.position = Vector2.MoveTowards(controller.transform.position, controller.chaseTarget.position, controller.stats.chaseSpeed * Time.deltaTime);
     }
 }

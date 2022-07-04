@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyStats : MonoBehaviour
+[CreateAssetMenu(menuName = "Enemy")]
+public class EnemyStats : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float attackRange;
+    public float jumpForce;
+    public LayerMask isGround;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float patrolSpeed;
+    public float chaseSpeed;
 }

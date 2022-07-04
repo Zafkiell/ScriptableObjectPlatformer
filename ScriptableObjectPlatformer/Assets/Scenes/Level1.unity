@@ -413,6 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 699f0338701b61541889a652cf6fccc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 9541d722fb3e82f46995f7b0062f689b, type: 2}
   currentState: {fileID: 11400000, guid: 5c15d08a92f8dd24894ee5c32a484c71, type: 2}
   Waypoints:
   - {fileID: 1179787429}

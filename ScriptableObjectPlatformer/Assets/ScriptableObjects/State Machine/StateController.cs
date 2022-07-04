@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StateController : MonoBehaviour
 {
+    public EnemyStats stats;
     public State currentState;
     public Transform[] Waypoints;
     public State remainState;
