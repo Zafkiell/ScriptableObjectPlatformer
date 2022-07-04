@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173664c5405b80449af24b8d2f2919f5, type: 3}
+  m_Name: Chase Chaser
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 46958b0feb03a894f8a7610a4bc844ac, type: 2}
+  - {fileID: 11400000, guid: b6e55bbafc27a164aa056f3ee2f0e646, type: 2}
+  transitons:
+  - decision: {fileID: 11400000, guid: 432084302346f5d4f9b84235eec0d56d, type: 2}
+    trueState: {fileID: 11400000, guid: 86c0bdf76fa7d6c448fb9530010613f9, type: 2}
+    falseState: {fileID: 11400000, guid: 5c15d08a92f8dd24894ee5c32a484c71, type: 2}
